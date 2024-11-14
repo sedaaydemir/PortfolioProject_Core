@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class ExperienceManager : IExperience
+    public class ExperienceManager : IExperienceService
     {
         IExperienceDal _experienceDal;
 
